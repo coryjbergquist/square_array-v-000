@@ -9,5 +9,5 @@ new_array
 end
 
 def collect_array(array)
-  array.collect
+  array.collect { |x| x ** 2}
 end
